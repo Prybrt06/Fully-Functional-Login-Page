@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41B0E6F28665B000070FD20 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B0E6E28665B000070FD20 /* SignInView.swift */; };
+		B41B0E7128665B580070FD20 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B0E7028665B580070FD20 /* SignUpView.swift */; };
+		B41B0E7428665B990070FD20 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B0E7328665B990070FD20 /* AppViewModel.swift */; };
 		B48793CA2865A3F300ACAFEE /* Assignment_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48793C92865A3F300ACAFEE /* Assignment_2App.swift */; };
 		B48793CC2865A3F300ACAFEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48793CB2865A3F300ACAFEE /* ContentView.swift */; };
 		B48793CE2865A3F500ACAFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48793CD2865A3F500ACAFEE /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B41B0E6E28665B000070FD20 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B41B0E7028665B580070FD20 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B41B0E7328665B990070FD20 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		B48793C62865A3F300ACAFEE /* Assignment 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48793C92865A3F300ACAFEE /* Assignment_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_2App.swift; sourceTree = "<group>"; };
 		B48793CB2865A3F300ACAFEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B41B0E7228665B820070FD20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B41B0E7328665B990070FD20 /* AppViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B48793BD2865A3F300ACAFEE = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +75,14 @@
 		B48793C82865A3F300ACAFEE /* Assignment 2 */ = {
 			isa = PBXGroup;
 			children = (
+				B41B0E7228665B820070FD20 /* Model */,
 				B48793C92865A3F300ACAFEE /* Assignment_2App.swift */,
 				B48793CB2865A3F300ACAFEE /* ContentView.swift */,
 				B4A3B44D2865C75E00DB5CA2 /* GoogleService-Info.plist */,
 				B48793CD2865A3F500ACAFEE /* Assets.xcassets */,
 				B48793CF2865A3F500ACAFEE /* Preview Content */,
+				B41B0E6E28665B000070FD20 /* SignInView.swift */,
+				B41B0E7028665B580070FD20 /* SignUpView.swift */,
 			);
 			path = "Assignment 2";
 			sourceTree = "<group>";
@@ -160,6 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41B0E7428665B990070FD20 /* AppViewModel.swift in Sources */,
+				B41B0E7128665B580070FD20 /* SignUpView.swift in Sources */,
+				B41B0E6F28665B000070FD20 /* SignInView.swift in Sources */,
 				B48793CC2865A3F300ACAFEE /* ContentView.swift in Sources */,
 				B48793CA2865A3F300ACAFEE /* Assignment_2App.swift in Sources */,
 			);
