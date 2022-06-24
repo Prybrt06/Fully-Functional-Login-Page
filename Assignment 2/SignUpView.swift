@@ -15,7 +15,7 @@ struct SingUpView: View {
     
     var body: some View {
         VStack {
-            Text("")
+            Text("Sign Up")
                 .font(.largeTitle)
                 .bold()
                 .padding()
@@ -138,7 +138,5 @@ struct SingUpView: View {
                 Spacer()
             }
         }
-        
-        .navigationTitle("Sign Up")
     }
 }
